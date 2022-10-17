@@ -51,7 +51,7 @@
 
 .head__btn:hover {
     animation: btn 0.4s linear none 1;
-    animation-fill-mode: forwards
+    animation-fill-mode: forwards;
 }
 
 @keyframes btn {

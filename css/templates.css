@@ -18,7 +18,6 @@
     letter-spacing: 2px;
     color: #ACA592;
     text-transform: uppercase;
-    
 }
 
 .templates__h2 {
@@ -54,4 +53,9 @@
     letter-spacing: 2px;
     color: white;
     text-transform: uppercase
+}
+
+.img{
+    height: 100%;
+    width: 100%;
 }
