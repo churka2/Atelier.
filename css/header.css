@@ -33,9 +33,9 @@
     text-transform: uppercase
 }
 
-.head__link:hover{
+.head__link:hover {
     color: #FFAE2B
-} 
+}
 
 .head__btn {
     font-family: 'Old Standard TT', sans-serif;
@@ -45,5 +45,29 @@
     color: #FFAE2B;
     padding: 15px 25px;
     border: 1px solid #FFAE2B;
-    text-transform: uppercase
+    text-transform: uppercase;
+    transition: 0.25s
+}
+
+.head__btn:hover {
+    animation: btn 0.4s linear none 1;
+    animation-fill-mode: forwards
+}
+
+@keyframes btn {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    30% {
+        transform: rotate(-1.5deg) scale(1.03)
+    }
+
+    60% {
+        transform: rotate(1.5deg) scale(1.03)
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1.03)
+    }
 }
