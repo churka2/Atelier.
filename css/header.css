@@ -1,0 +1,49 @@
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px auto;
+}
+
+.header__left {
+    display: flex;
+    gap: 42px;
+    align-items: center
+}
+
+.head__menu {
+    display: flex;
+    gap: 28px;
+}
+
+.logo {
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFAE2B;
+}
+
+.head__link {
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #ACA592;
+    text-transform: uppercase
+}
+
+.head__link:hover{
+    color: #FFAE2B
+} 
+
+.head__btn {
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFAE2B;
+    padding: 15px 25px;
+    border: 1px solid #FFAE2B;
+    text-transform: uppercase
+}
