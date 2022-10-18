@@ -1,4 +1,4 @@
-.templates{
+.templates {
     padding-bottom: 120px;
     padding-top: 120px;
 }
@@ -28,6 +28,7 @@
     color: #FFAE2B;
     margin-top: 10px;
     margin-bottom: 60px;
+    text-align: center
 }
 
 .templates__cards {
@@ -58,16 +59,29 @@
     text-transform: uppercase
 }
 
-.img{
+.img {
     height: 100%;
     width: 100%;
 }
 
-.templ{
+.templ {
     transition: 0.25s
 }
 
-.templates__card:hover{
+.templates__card:hover {
     transform: scale(1.1);
     transition: 0.25s
+}
+
+@media screen and (max-width:425px) {
+    .templates__card:hover {
+        transform: scale(1);
+    }
+
+    .templates__card {}
+    .card__img{
+            height: 100%;
+            width: 290px;
+    }
+
 }

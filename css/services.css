@@ -24,6 +24,7 @@
     line-height: 70px;
     margin-top: 10px;
     margin-bottom: 60px;
+    text-align: center
 }
 
 .services__card {
@@ -69,4 +70,10 @@
     text-align: left;
     color: #ACA592;
     max-width: 222px
+}
+
+@media screen and (max-width:792px){
+    .services__card{
+        flex-direction: column
+    }
 }

@@ -122,3 +122,31 @@
 .sub__icon:hover{
     transform: scale(1.1)
 }
+
+@media screen and (max-width:792px){
+    .sub__block {
+        height: 109px;
+        width: 300px;
+    }
+    
+    .sub__yellow {
+        height: 50px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .sub__h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .sub__block {
+        height: 109px;
+        width: 200px;
+    }
+    
+    .sub__yellow {
+        height: 50px;
+        width: 200px;
+    }
+}

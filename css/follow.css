@@ -3,6 +3,7 @@
     justify-content: center;
     position: relative;
     padding-bottom: 125px;
+    align-items: center
 }
 
 .follow__wrap::after{
@@ -61,4 +62,24 @@
     text-transform: uppercase;
     z-index: -2;
     cursor: pointer;
+}
+
+@media screen and (max-width:1216px){
+    .follow__wrap{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:470px){
+    .img1{
+        display: flex;
+        flex-direction: column
+    }
+    .img2{
+        display: flex;
+        flex-direction: column
+    }
 }

@@ -48,3 +48,11 @@
     animation: btn 0.4s linear none 1;
     animation-fill-mode: forwards
 }
+
+
+@media screen and (max-width:425px){
+    .banner__h1 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+}
