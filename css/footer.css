@@ -1,0 +1,41 @@
+.foot__wrap {
+    padding: 22px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot__left {
+    display: flex;
+}
+
+.foot__txt {
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #ACA592;
+}
+
+.left__a {
+    color: #FFAE2B
+}
+
+.foot__menu {
+    display: flex;
+    gap: 6px;
+}
+
+.foot__link {
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFAE2B;
+}
+
+.foot__linkmid{
+    padding: 0 4px;
+    border-left: 1px solid #4B4136;
+    border-right: 1px solid #4B4136;
+}
