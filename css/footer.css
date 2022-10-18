@@ -39,3 +39,11 @@
     border-left: 1px solid #4B4136;
     border-right: 1px solid #4B4136;
 }
+
+.foot__link:hover{
+    color: rgb(221, 138, 4);
+}
+
+.left__a:hover{
+    color: rgb(221, 138, 4);
+}

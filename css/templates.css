@@ -34,6 +34,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .templates__card {
@@ -43,6 +45,7 @@
     align-items: center;
     flex-basis: 32%;
     border: 1px solid #4B4136;
+    transition: 0.25s
 }
 
 .card__txt {
@@ -58,4 +61,13 @@
 .img{
     height: 100%;
     width: 100%;
+}
+
+.templ{
+    transition: 0.25s
+}
+
+.templates__card:hover{
+    transform: scale(1.1);
+    transition: 0.25s
 }
