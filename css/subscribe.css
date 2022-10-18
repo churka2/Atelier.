@@ -1,0 +1,114 @@
+.sub__wrap {
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub__wrap::after{
+    content: "";
+    position: absolute;
+    background: #4B4136;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+}
+
+.sub__h2 {
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    max-width: 517px;
+    color: #FFAE2B;
+}
+
+.sub__txt {
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #ACA592;
+    margin: 20px;
+    margin-bottom: 82px;
+}
+
+.sub__info {
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #ACA592;
+    margin-top: 35px;
+    position: relative;
+    z-index: 1;
+    max-width: 400px;
+    margin-bottom: 24px;
+}
+
+.info__span1{
+     color: transparent
+}
+
+.info__span{
+    position: absolute;
+    left: 0;
+    top: -6px;
+}
+
+.sub__info::before {
+    content: "“Subscribe”";
+    position: absolute;
+    color: #FFAE2B;
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    z-index: -1;
+    top: -7px;
+    left: 60px;
+    opacity: 90%;
+}
+
+.sub__info::after {
+    content: "Data Use Policy.";
+    position: absolute;
+    color: #FFAE2B;
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    z-index: -1;
+    bottom: 4px;
+    right: 100px;
+    opacity: 90%;
+    
+}
+
+.sub__block {
+    height: 109px;
+    width: 420px;
+    border: 1px solid #4B4136;
+    display: flex;
+    align-items: flex-end
+}
+
+.sub__yellow {
+    height: 50px;
+    width: 420px;
+    background: #FFAE2B;
+}
+
+.sub__icons{
+    display: flex;
+    gap: 8px;
+}
+
+.sub__icon{
+    border: 1px solid #4B4136;
+    padding: 15px;
+}
